@@ -1,0 +1,79 @@
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #ebebeb;
+  padding: 28px 32px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.stat-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon.blue  { background: #e8f0fe; }
+.stat-icon.green { background: #e6f9f0; }
+.stat-icon.red   { background: #fde8e6; }
+
+.stat-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.stat-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 4px 10px;
+}
+
+.stat-badge.green { background: #e6f9f0; color: #1a9e5c; }
+.stat-badge.blue  { background: #e8f0fe; color: #3b6fd4; }
+.stat-badge.red   { background: #fde8e6; color: #e8392a; }
+
+.stat-badge svg {
+  width: 14px;
+  height: 14px;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.asset-table-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
